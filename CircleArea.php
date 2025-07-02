@@ -17,7 +17,9 @@
         $radius = $_POST['num'];{
             $PI=3.14;
             $area = $PI*$radius*$radius;
-            echo "The Area Of Circle Is : <b>$area</b>";
+            $para = 2*$PI*$radius;
+            echo "The Area Of Circle Is : <b>$area</b><p>";
+            echo "The Paramiter Of Circle Is : <b>$para</b>";
         }        
     }
 ?>          
